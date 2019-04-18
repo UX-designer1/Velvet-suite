@@ -1,0 +1,810 @@
+/*
+ Company name : What's new Technology;
+ Designer name : vikrant verma;
+ */
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+.modal-lg {
+    width: 1135px;
+}
+
+.p_left_0{
+    padding-left:0px;
+}
+
+.block p {
+    margin: 0;
+}
+
+
+ }
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.custom-logo{
+    width: 234px !important;
+    height: auto !important;
+}
+
+.nav>li>a {
+    padding: 20px 8px !important;
+    font-weight: 500 !important;
+}
+
+
+.navbar-right {
+    float: right!important;
+    margin-right: -10px;
+}
+
+.section4 .block .heading {
+    font-size: 4.5rem;
+    line-height: 0rem;
+}
+
+.heading2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.section1 .heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+    .modal-lg {
+    width: 800px;
+}
+
+.p_left_0{
+    padding-left:0px;
+}
+
+.block p {
+    margin: 0;
+}
+
+.block p {
+    margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    margin-top: 1rem !important;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+ }
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+.custom-logo {
+    width: 219px !important;
+    height: auto !important;
+}
+
+.nav>li>a {
+    padding: 10px 8px !important;
+    font-weight: 500 !important;
+}
+
+
+.navbar-right {
+    float: right!important;
+    margin-right: -10px;
+}
+
+.section4 .block .heading {
+    font-size: 4.5rem;
+    line-height: 0rem;
+}
+
+.heading2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.section1 .heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container {
+    width: 859px;
+}
+
+
+
+ }
+
+
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+.custom .transparent-btn {
+    border: 2px solid #000;
+    font-size: 3rem;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+
+	 .custom_search{
+    position: absolute;
+    top: -8px;
+    right: 10rem;
+}
+
+.custom-logo{
+    width: 227px !important;
+    height: auto;
+}
+
+
+.crp-item.crp-tile-img{
+    position: relative;
+    display: block;
+    font-size: 10px;
+    max-width: 9999em;
+    width: 89% !important;
+    height: auto !important;
+    margin-top: 11.4583px;
+    margin-left: 0px;
+    margin: auto !important;
+}
+
+
+.section1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #2f2f2f;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
+.section1 .heading {
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.wpb_wrapper {
+    margin-bottom: 2rem;
+}
+
+.wpb_wrapper {
+    margin-bottom: 2rem;
+}
+
+.section2 .block {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section2 .block {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.section3 h1 {
+    font-size: 2.5rem;
+    color: #000000d6;
+    letter-spacing: 0;
+    margin-top: 0px;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.section6 .heading {
+    font-size: 2rem;
+}
+
+.section6 p {
+    margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.section6 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section6 .grid .transparent-btn {
+    margin-top: 2rem;
+    font-size: 11px;
+}
+
+
+.custom {
+    text-align: center;
+    padding: 36px 0px;
+}
+
+.section5 {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-image: url(../img/testimonial_back.PNG);
+    background-size: cover;
+}
+
+.section5 .block h3 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    letter-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.about {
+    background: url(../img/about_banner.jpg) no-repeat center center;
+    height: 140px;
+    background-size: cover;
+}
+
+.menu li.active a:hover {
+    text-decoration: none;
+    color: #312525 !important;
+}
+
+.tab-content h1 {
+    font-size: 2rem;
+}
+
+.quote-box .content {
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.section1 p {
+    color: #000000cc;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0px;
+}
+
+ .vc_custom_heading{
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.search_site_content .form-control {
+    height: 50px;
+    width: 83%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    float: left;
+}
+
+
+
+.search_site_content .btn_search_home {
+    width: 72px;
+    background-color: #FFEB3B;
+    height: 50px;
+    margin: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    color: #323232;
+    font-size: 25px;
+}
+
+
+
+.search_site_content form {
+    max-width: 536px;
+    margin: auto;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    line-height: 22px;
+    color: #000;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+
+#menu-top-menu li {
+    margin-top: 8px;
+    border-bottom: 1px solid #00000012;
+}
+
+.top_banner_text h1 {
+    font-size: 4rem !important;
+    font-weight: 800;
+    max-width: 704px !important;
+    line-height: 5rem;
+    color: #1c1b1b;
+    text-align: center;
+}
+
+
+.top_banner_text {
+    max-width: 100% !important;
+    margin-top: 0rem !important;
+}
+
+
+.top_banner_text  p {
+    margin: 0px;
+    margin-bottom: 3rem !important;
+    margin-top: 1rem;
+    max-width: 100% !important;
+    letter-spacing: 1px !important;
+    line-height: 2rem !important;
+    text-align: center !important;
+}
+
+
+.box_base_modal {
+    box-shadow: 0px 2px 8px #0002;
+    padding: 3rem;
+    border-radius: 11px;
+    margin-top: 2rem !important;
+    z-index: 9999;
+    background-color: #fff;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+#banner_base_panel_box {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem !important;
+}
+
+.box_base_modal {
+    box-shadow: 0px 2px 8px #0002;
+    padding: 3rem;
+    border-radius: 11px;
+    margin-top: 2rem;
+    z-index: 9999;
+    background-color: #ff3c3c !important;
+    margin-bottom: 7px !important;
+    text-align: center;
+    color: #fff;
+}
+
+.ac_text {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: #ffffffbf !important;
+}
+
+
+
+.top_banner_text .btn-primary {
+    color: #ed2222 !important;
+    background-color: #204d7400;
+    border-color: #ef4241;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.50rem 1.5rem;
+}
+
+.top_banner_text .btn-primary:hover {
+    color: #fff !important;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+
+
+ }
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+  .custom .transparent-btn {
+    border: 2px solid #000;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+
+#user_subscripbe .modal-body {
+    position: relative;
+    padding: 6px;
+}
+
+
+ .custom_search{
+    position: absolute;
+    top: -8px;
+    right: 10rem;
+}
+
+.custom-logo {
+    margin-top: 0px !important;
+    width: 225px !important;
+    height: auto;
+}
+
+.wpb_single_image img {
+    height: auto;
+    max-width: 100% !important;
+    vertical-align: top;
+    margin-left: 0px !important;
+    margin-top: 0rem;
+}
+
+
+
+
+.navbar-nav {
+    margin: 6.5px -25px;
+}
+
+.footer .brands .img-block {
+    float: left;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+.footer .brands .small {
+    width: 100% !important;
+    height: auto;
+    margin: auto;
+    margin-top: -7px;
+}
+
+.footer .small img {
+    width: 56% !important;
+    margin-bottom: 15px;
+    margin:auto;
+}
+
+.footer .brands .img-block img, .footer .brands .img-block:last-child {
+    width: 57%;
+    margin-top: 15px;
+}
+
+
+.img-block .width_3{
+	width: 186% !important;
+}
+
+.social-bar p {
+    float: left;
+    line-height: 58px;
+    margin: 0px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    display: inline-block;
+    position: absolute;
+}
+
+.crp-item.crp-tile-img{
+    position: relative;
+    display: block;
+    font-size: 10px;
+    max-width: 9999em;
+    width: 89% !important;
+    height: auto !important;
+    margin-top: 11.4583px;
+    margin-left: 0px;
+    margin: auto !important;
+}
+
+
+.section1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #2f2f2f;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
+.section1 .heading {
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.wpb_wrapper {
+    margin-bottom: 2rem;
+}
+
+.wpb_wrapper {
+    margin-bottom: 2rem;
+}
+
+.section2 .block {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section2 .block {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.section3 h1 {
+    font-size: 2.5rem;
+    color: #000000d6;
+    letter-spacing: 0;
+    margin-top: 0px;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.section6 .heading {
+    font-size: 2rem;
+}
+
+.section6 p {
+    margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.section6 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section6 .grid .transparent-btn {
+    margin-top: 2rem;
+    font-size: 11px;
+}
+
+
+.custom {
+    text-align: center;
+    padding: 36px 0px;
+}
+
+.section5 {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-image: url(../img/testimonial_back.PNG);
+    background-size: cover;
+}
+
+.section5 .block h3 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    letter-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.about {
+    background: url(../img/about_banner.jpg) no-repeat center center;
+    height: 140px;
+    background-size: cover;
+}
+
+.menu li.active a:hover {
+    text-decoration: none;
+    color: #312525 !important;
+}
+
+.tab-content h1 {
+    font-size: 2rem;
+}
+
+.quote-box .content {
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.section1 p {
+    color: #000000cc;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0px;
+}
+
+ .vc_custom_heading{
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.slider_button {
+    background-color: transparent !important;
+    border: 1px solid #ffffff !important;
+    font-size: 0.50rem !important;
+    padding-left: 0.50rem !important;
+    padding-right: 0.50rem !important;
+    padding-top: 0.50rem !important;
+    padding-bottom: 0.50rem !important;
+    width: 80px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+}
+
+.p_left_0{
+    padding:0!important;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    line-height: 22px;
+    color: #000;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+
+#menu-top-menu li {
+    margin-top: 8px;
+    border-bottom: 1px solid #00000012;
+}
+
+.top_banner_text h1 {
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    max-width: 521px;
+    line-height: 5rem;
+    color: #1c1b1b;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+
+.top_banner_text {
+    max-width: 100% !important;
+    margin-top: 0rem !important;
+}
+
+
+.top_banner_text  p {
+    margin: 0px;
+    margin-bottom: 3rem !important;
+    margin-top: 1rem;
+    max-width: 100% !important;
+    letter-spacing: 1px !important;
+    line-height: 2rem !important;
+    text-align: center !important;
+}
+
+
+.box_base_modal {
+    box-shadow: 0px 2px 8px #0002;
+    padding: 3rem;
+    border-radius: 11px;
+    margin-top: 2rem !important;
+    z-index: 9999;
+    background-color: #fff;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+#banner_base_panel_box {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem !important;
+}
+
+.box_base_modal {
+    box-shadow: 0px 2px 8px #0002;
+    padding: 3rem;
+    border-radius: 11px;
+    margin-top: 2rem;
+    z-index: 9999;
+    background-color: #ff3c3c !important;
+    margin-bottom: 7px !important;
+    text-align: center;
+    color: #fff;
+}
+
+.ac_text {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: #ffffffbf !important;
+}
+
+.top_banner_text .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    font-size: 17px !important;
+}
+
+.search_site_content .form-control {
+    height: 50px;
+    width: 77%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    float: left;
+}
+
+.close_search_base {
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
+    font-size: 2rem;
+    display: none;
+}
+
+
+.about.banner .content .overlay {
+    left: 31px !important;
+    background: rgba(0,0,0,0.9);
+}
+
+.banner .content .heading {
+    font-size: 2rem !important;
+    line-height: 4rem !important;;
+    margin-top: -73px !important;;
+    margin-left: -344px !important;;
+}
+
+
+.banner.about .content .block, .about.banner .content .overlay {
+    min-width: 262px !important;
+}
+
+.wpb_video_widget.vc_video-el-width-50 .wpb_wrapper {
+    width: 100% !important;
+}
+
+.menu-items{
+    margin-bottom: 5rem;
+}
+
+
+
+.top_banner_text .btn-primary {
+    color: #ffffff !important;
+    background-color: #ef4241;
+    border-color: #ef4241;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.50rem 1.5rem;
+}
+
+.top_banner_text .btn-primary:hover {
+    color: #fff !important;
+    background-color: rgb(228, 45, 32);
+    border-color: rgb(228, 45, 32);
+}
+
+
+
+
+}
+
+
+

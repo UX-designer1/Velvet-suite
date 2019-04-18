@@ -1,0 +1,94 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package Velvet_Suite
+ */
+
+?>
+
+	<!-- #content -->
+
+	<footer>
+		<div class="container-fluid footer">
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-5 blogs">
+				<h1 class="heading">LATEST BLOG POSTS</h1>
+				<div class="block">
+					<img src="<?php echo get_template_directory_uri()?>/img/tempimg.jpg" alt="img" />
+					<div class="text">
+						<a href="#"><h1 class="heading">Proin Pharetra Aenean Placerat</h1></a>
+						<p>January 01, 2019</p>
+					</div>
+				</div>	
+				<div class="block">
+					<img src="<?php echo get_template_directory_uri()?>/img/tempimg.jpg" alt="img" />
+					<div class="text">
+						<a href="#"><h1 class="heading">Proin Pharetra Aenean Placerat</h1></a>
+						<p>January 01, 2019</p>
+					</div>
+				</div>
+				<div class="block">
+					<img src="<?php echo get_template_directory_uri()?>/img/tempimg.jpg" alt="img" />
+					<div class="text">
+						<a href="#"><h1 class="heading">Proin Pharetra Aenean Placerat</h1></a>
+						<p>January 01, 2019</p>
+					</div>
+				</div>	
+				<div class="block">
+					<img src="<?php echo get_template_directory_uri()?>/img/tempimg.jpg" alt="img" />
+					<div class="text">
+						<a href="#"><h1 class="heading">Proin Pharetra Aenean Placerat</h1></a>
+						<p>January 01, 2019</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 brands">
+				<h1 class="heading">FAMILY OF BRANDS</h1>
+				<p>Visit our family of brands online</p>
+				<div class="img-block">
+					<a href="#"><img src="<?php echo get_template_directory_uri()?>/img/MDS.png" alt="logo" /></a>
+				</div>
+				<div class="img-block small">
+					<a href="#"><img src="<?php echo get_template_directory_uri()?>/img/SSS.png" alt="logo" /></a>
+				</div>
+				<div class="img-block">
+					<a href="#"><img src="<?php echo get_template_directory_uri()?>/img/VS Financial.PNG" alt="logo" /></a>
+				</div>
+			</div>
+			<div class="col-sm-3 col-sm-offset-1 address">
+				<h1 class="heading">contact us</h1>
+				<p>12020 Sunset Valley Drive #100 Reston, VA 2019</p>
+				<p>800-790-7630</p>
+				<p>info@velvetsuite.com</p>
+				<a href="#"><img src="<?php echo get_template_directory_uri()?>/img/WOMEN OWNED.png" alt="logo" /></a>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div class="container-fluid sub-footer">
+		<div class="container">
+			<p class="brand">
+				&copy; VELVET SUITE 2019
+			</p>
+			<ul>
+				<li><a href="#">about</a></li>
+				<li><a href="#">expertise</a></li>
+				<li><a href="#">results</a></li>
+				<li><a href="#">live experiences</a></li>
+			</ul>
+		</div>
+		</div>
+    </footer><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+</html>

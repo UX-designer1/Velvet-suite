@@ -1,0 +1,476 @@
+/*!
+Theme Name: Velvet Suite
+Theme URI: http://underscores.me/
+Author: Ram Kumar Kuril
+Author URI: http://ram@subture.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: velvet-suite
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Velvet Suite is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	overflow-x:hidden !important;
+}
+
+.about_sec_img{
+	float:right;
+}
+
+.section1 .vt_black{
+	color: #282424;
+}
+
+.footer .block img {
+    width: 24% !important;
+}
+
+.footer .block .text {
+    width: 75% !important;
+    padding-left: 5%;
+    margin-top: 0px;
+}
+
+.footer .block .heading {
+    font-size: 13px !important;
+}
+
+.footer .block p {
+    font-size: 11px !important;
+    margin: 0;
+    font-weight: 300;
+}
+
+.mds{
+    width: 102px !important;
+    height: auto;
+}
+
+.footer .brands .small {
+    width: 84px;
+    height: auto;
+    margin-left: 4%;
+    margin-top: -7px;
+}
+
+.width_3{
+    width: 80% !important;
+}
+
+.second_vt_img {
+    max-width: 40%;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+
+
+.section6 .hover-block:hover >.overlay {
+    /* background: rgba(162,34,32,0.9); */
+    background-blend-mode: initial;
+    background: #930200bf;
+	animation-name: fadeIn;
+    animation-duration: 0.5s;
+	-webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.5s;
+}
+
+.section6 .hover-block:hover> .inner-block {
+    position: absolute;
+    bottom: 0;
+    padding: 3rem;
+    width: 100%;
+    animation-name: slideInUp;
+   animation-duration: 0.9s;
+   -webkit-animation-name: slideInUp;
+   -webkit-animation-duration: 0.9s;
+}
+
+.section2 .block:hover >.overlay {
+    background: #930503de;
+	animation-name: fadeIn;
+    animation-duration: 0.5s;
+	-webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.5s;
+}
+
+.section2 .block:hover> .inner-block {
+	animation-name: zoomIn;
+    animation-duration: 1s;
+	-webkit-animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+}
+
+
+.owl-carousel .owl-item.active {
+	animation-name: slideInLeft;
+    animation-duration: 1s;
+	-webkit-animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+}
+
+.sub-footer p {
+    margin: 0px;
+    margin-bottom: 0rem;
+    margin-top: 0px;
+    max-width: 100%;
+    letter-spacing: 1px;
+    line-height: 1rem;
+}
+
+
+.leadership {
+    font-size: 30px;
+    font-weight: 800 !important;
+    margin-bottom: 4rem;
+    color: #000000e3;
+}
+
+.section3 .block p {
+     margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+
+
+.button.js-filter .button {
+    margin: 0.5em;
+    padding: 0.9em;
+    background: none;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    border-radius: 31px !important;
+    border: 1px solid #0000002b !important;
+    box-shadow: 1px -3px 9px 1px #0002 !important;
+	-webkit-box-shadow: 1px -3px 9px 1px #0002 !important;
+    margin-top: 3rem !important;
+}
+
+
+.button.js-filter .button.is-active {
+    margin: 0.5em;
+    padding: 0.9em;
+    background: none;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    border-radius: 31px !important;
+    border: 1px solid #0000002b !important;
+    box-shadow: 1px -3px 9px 1px #0002 !important;
+    margin-top: 3rem !important;
+	background-color: #e63939 !important;
+	color:#fff !important;
+}
+
+
+.testimonial-vt .wpb_wrapper{
+	margin-bottom:0rem !important;
+}
+
+.tab-content .sub {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-family: 'Avenir next condensed', sans-serif;
+    color: #363636;
+    line-height: 3rem;
+}
+
+
+.pr_heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b13034;
+    margin-bottom: 2.50rem;
+}
+
+.quote-box {
+    background: #fff;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #5c5c5c;
+    font-style: italic;
+    margin-bottom: 8rem;
+    border: 2px solid #bca560;
+}
+
+.quote-box .block {
+    width: 100%;
+}
+
+.quote-box .content {
+    line-height: 3rem;
+    font-size: 2.55rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+.heading {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 0px;
+    letter-spacing: 0;
+}
+
+.mr-tt_vt{
+    margin-top: 6rem;
+}
+
+.menu-items li {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.menu-items li:hover {
+    color: #e91717;
+} 
+
+.menu-items li a:hover {
+    color: #e91717;
+} 
+
+
+.menu-items li a {
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Avenir next condensed', sans-serif;
+}
+
+.menu-items li a:active {
+    color: #e91717;
+} 
+
+
+.menu-items li.active {
+    color: #e91717;
+} 
+
+.padding-l-0{
+	padding-left:0px;
+}
+
+#expertise .media-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Avenir next condensed', sans-serif;
+}
+
+#expertise .media-body p {
+    margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.content {
+    margin: 0px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    letter-spacing: 0px;
+    line-height: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: inherit;
+}
+
+.about.banner .content .overlay {
+    left: 207px;
+    background: rgba(0,0,0,0.9);
+}
+
+.banner.about .content .block {
+    left: 181px;
+    right: 0;
+    bottom: 0;
+    top: 21%;
+    width: 35%;
+    text-align: center;
+}
+
+.banner .content {
+    height: 600px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    position: relative;
+    margin-top: 0;
+}
+
+.wpb_single_image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+#top_banner {
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+    background: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.top_banner_text h2{
+    font-weight: 700;
+    line-height: 4rem;
+    color: #2e2e2e;
+	margin-top: 8rem;
+}
+
+ .custom_search{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.top_banner_text{
+    max-width: 89%;
+}
+
+.top_banner_text h1{
+    font-size: 4rem;
+    font-weight: 800;
+    max-width: 533px;
+    line-height: 5rem;
+    color: #1c1b1b;
+}
+
+
+.top_banner_text {
+    max-width: 89%;
+    margin-top: 8rem;
+}
+
+#banner_base_panel_box{
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.box_base_modal {
+    box-shadow: 0px 2px 8px #0002;
+    padding: 3rem;
+    border-radius: 11px;
+    margin-top: -13rem;
+    z-index: 999;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+
+.box_base_modal a {
+    max-width: 394px;
+    display: block;
+    margin: auto;
+}
+
+ .box_base_modal h1{
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.ac_text {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: #494349cf;
+}
+
+.section1.uppercase{
+	    margin-top: -32px;
+}
+
+
+.page-title{
+    font-weight: 700;
+}
+
+.page-title span{
+    font-weight: 600;
+    
+}
+
+
+.top_banner_text .btn-primary {
+    color: #ffffff !important;
+    background-color: #ef4241;
+    border-color: #ef4241;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.50rem 1.5rem;
+}
+
+.top_banner_text .btn-primary:hover {
+    color: #fff !important;
+    background-color: rgb(228, 45, 32);
+    border-color: rgb(228, 45, 32);
+}
+
+
+
+
