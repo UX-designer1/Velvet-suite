@@ -831,8 +831,8 @@ input.btn-default:hover {
     border-color: #CC4633;
 }
 
-.wpb_wrapper {
-    margin-bottom: 4rem;
+.wpb_wrapper{
+    margin-bottom: 8rem;
 }
 
 .slider_button{
@@ -1074,20 +1074,6 @@ h2.entry-title {
 .menu-items li:hover {
     color: #b13034 !important;
 }
-
-
-input.btn-default{
-    color: #fff7f7;
-    background-color: #ba311d;
-    border-color: #CC4633;
-}
-
-input.btn-default:hover {
-    color: #fff7f7;
-    background-color: #a02a18;
-    border-color: #a02a18;
-}
-
 /* media-query starts */
 @media(max-width:767px)
 {
@@ -1651,7 +1637,7 @@ input.btn-default:hover {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #b13034;
+    color: #f83b3b;
     background-color: #fffdfd00;
 }
 
@@ -1706,8 +1692,6 @@ input.btn-default:hover {
 .close_search_base a:hover{
 	color: #fff;
 }
-
-
 
 /* responsive media queries */
 
